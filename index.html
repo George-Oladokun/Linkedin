@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="logo"><img src="/img/linkedin.png"></a>
+
+            <div class="search-box">
+                <img src="img/search-box.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="nav-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="img/Home.png"> <span>Home</span></a></li>
+                <li><a href="#"><img src="img/Network.jfif"> <span>My network</span></a></li>
+                <li><a href="#"><img src="img/Job.png"> <span>Jobs</span></a></li>
+                <li><a href="#"><img src="img/Msseage.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="img/Notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="online">
+                <img src="img/2190.jpg" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="img/2190.jpg">
+                    <div>
+                        <h3>Developer Oladokun George Abraham</h3>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="img/feedback.jfif">
+                    <p>Give feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="img/setting.jfif">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="img/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="img/display.jfif">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="img/logout.jfif">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img src="img/profile.jpg" width="100%">
+                <div class="sidebar-profile-info">
+                    <img src="img/2190.jpg">
+                    <h1>Developer Oladokun George Abraham</h1>
+                    <h3>Web Developer at SQI COLLEGE OF ICT</h3>
+                    <ul>
+                        <li>Your profile view<span>5M</span></li>
+                        <li>Your post view<span>5.5K</span></li>
+                        <li>Your connection<span>3.5K</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="img/items.png">My items</a>
+                    <a href="#"><img src="img/premium.png">Try Premium</a>
+                </div>
+            </div>
+
+            <div class="sidebar-activity">
+                <h3>RECENT</h3>
+                <a href="#"><img src="img/recent.png" style="height: 10px;">Web Development</a>
+                <a href="#"><img src="img/recent.png" style="height: 10px;">User Interface</a>
+                <a href="#"><img src="img/recent.png" style="height: 10px;">Online Learning</a>
+                <a href="#"><img src="img/recent.png" style="height: 10px;">Learn Online</a>
+                <a href="#"><img src="img/recent.png" style="height: 10px;">Code Better</a>
+                <h3>GROUPS</h3>
+                <a href="#"><img src="img/group.png">Web Design Group</a>
+                <a href="#"><img src="img/group.png">CSS and HTML Learners</a>
+                <a href="#"><img src="img/group.png">Python and Javascript Group</a>
+                <a href="#"><img src="img/group.png">Learning Code Online</a>
+                <h3>HASHTAG</h3>
+                <a href="#"><img src="img/hashtag.png">Web Development</a>
+                <a href="#"><img src="img/hashtag.png">User Interface</a>
+                <a href="#"><img src="img/hashtag.png">Online Learning</a>
+                <div class="discover-more-link">
+                    <a href="#">Discover More</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="img/2190.jpg">
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+                </div>
+                <div class="create-post-links">
+                    <li><img src="img/photo.png">Photo</li>
+                    <li><img src="img/video.png">Video</li>
+                    <li><img src="img/event.png">Event</li>
+                    <li>Post</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>top <img src="img/down arrow.png"></span></p>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="img/Picture.jpg">
+                    <div>
+                        <h1>John Oha Raji</h1>
+                        <small>Founder and CEO at United Bank for Africa Bank (UBA)</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>The success of every websites depends on search engine optimisation and digital marketing strategy.
+                    If you are on first page of all major search engines then you are ahead among your competitors.</p>
+                <img src="img/website.jfif" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="img/thumbslike.png">
+                        <img src="img/love.png">
+                        <img src="img/Clap.png">
+                        <span class="liked-user">Oladosun Rchard and 100 others</span>
+                    </div>
+                    <div>
+                        <span>40 comments &middot; 10 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="img/my picture.jpg" class="post-activity-user-icon">
+                        <img src="img/down arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/comment.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="img/rose mary.jpg">
+                    <div>
+                        <h1>Rose Mary</h1>
+                        <small>work in tech company</small>
+                        <small>3 hours ago</small>
+                    </div>
+                </div>
+                <p>If you want to successful in life you must work hard thorouhly</p>
+                <img src="img/tech.jpg" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="img/thumbslike.png">
+                        <img src="img/love.png">
+                        <img src="img/Clap.png">
+                        <span class="liked-user">Williams Johnson and 2M</span>
+                    </div>
+                    <div>
+                        <span>2K comments &middot; 1000 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="img/my picture.jpg" class="post-activity-user-icon">
+                        <img src="img/down arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/comment.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="img/Sub.jpg">
+                    <div>
+                        <h1>Surprise Oladokun</h1>
+                        <small>Working in Olatech Company</small>
+                        <small>5 hours ago</small>
+                    </div>
+                </div>
+                <p>To become a great tech in life you must work hard</p>
+                <img src="img/olatech.jpg" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="img/thumbslike.png">
+                        <img src="img/love.png">
+                        <img src="img/Clap.png">
+                        <span class="liked-user">Adekunle Gold and 1K</span>
+                    </div>
+                    <div>
+                        <span>200 comments &middot; 100 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="img/my picture.jpg" class="post-activity-user-icon">
+                        <img src="img/down arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/comment.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="img/2190.jpg">
+                    <div>
+                        <h1>Developer Oladokun George Abraham</h1>
+                        <!-- <small>Update his profile picture</small> -->
+                        <small>15 hours ago</small>
+                    </div>
+                </div>
+                <p>Update his profile picture.</p>
+                <img src="img/2190.jpg" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="img/thumbslike.png">
+                        <img src="img/love.png">
+                        <img src="img/Clap.png">
+                        <span class="liked-user">Eniola Adelowo, Adeyi john and others 2M</span>
+                    </div>
+                    <div>
+                        <span>4.5K Comment &middot; 10K shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="img/my picture.jpg" class="post-activity-user-icon">
+                        <img src="img/down arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/comment.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <img src="img/trending 1.png" class="info-icon">
+                <h3>Trending News</h3>
+                <a href="#">High demand for skilled manpower</a>
+                <span>1day ago &middot; 10,934 readers</span>
+
+                <a href="#">Careers growing horizontally too</a>
+                <span>19h ago &middot; 23,195 readers</span>
+
+                <a href="#">Less work visa for US, more for UK</a>
+                <span>1d ago &middot; 30,478 readers</span>
+
+                <a href="#">More hiring = higher confidence</a>
+                <span>18h ago &middot; 9,636 readers</span>
+
+                <a href="#">Gautam Adani is the world's third richest </a>
+                <span>12h ago &middot; 4,654 readers</span>
+
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principles of web design</p>
+                <div>
+                    <img src="img/2190.jpg">
+                    <img src="img/image logo.jfif">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help center</a>
+                <a href="#">Privacy policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the app</a>
+                <a href="#">More</a>
+
+                <div class="copyright-msg">
+                    <img src="img/linkedin.png">
+                    <p>Linkedup &169; 2024. All right reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+      let profileMenu = document.getElementById("profileMenu");
+
+      function toggleMenu(){
+        profileMenu.classList.toggle("open-menu");
+      }
+    </script>
+</body>
+
+</html>
